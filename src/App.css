@@ -1,0 +1,35 @@
+body {
+    background-color: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.appContainer {
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#genericApp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 500px;
+    padding: 16px;
+    border-radius: 16px;
+    width: 100%;
+    max-width: 800px;
+    overflow: hidden;
+    box-shadow: 00px 2px 64px #000;
+}
+
+.cloudsApp {
+    background-color: black;
+    color: aliceblue;
+}
