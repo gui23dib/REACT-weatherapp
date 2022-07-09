@@ -35,13 +35,19 @@ u {
     margin-left: 10px;
     text-decoration: none;
     opacity: 50%;
+    cursor: pointer;
+    transition: ease-in-out 0.2s;
+}
+
+u:hover {
+    opacity: 80%;
 }
 
 .appContainer {
-    height: 800px;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 200px;
 }
 
 #genericApp {
@@ -55,6 +61,23 @@ u {
     max-width: 700px;
     overflow: hidden;
     box-shadow: 00px 2px 64px #000;
+    transition: 0.1s;
+}
+
+.dateTime {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 100;
+    position: absolute;
+    float: right;
+    width: 200px;
+    height: 360px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    opacity: 90%
 }
 
 .localContainer {
@@ -65,9 +88,9 @@ u {
     display:block;
     align-items: center;
     justify-content: center;
-    margin-left: 10PX;
-    margin-right: 10PX;
-    margin-bottom: 62PX;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 62px;
 }
 
 /*.localContainer span {

@@ -1,4 +1,24 @@
-.cloudsApp {
+.drizzleApp {
     background-color: #637886;
     background-image: linear-gradient(135deg, #607e92 0%, #6a6c96 100%);
 }
+
+.clearApp {
+    background-color: #FBAB7E;
+    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+}
+
+.cloudsApp {
+    background-color: #424a50;
+    background-image: linear-gradient(135deg, #4f606b 0%, #b2bccc 100%);
+    animation: bg-animation 10s infinite alternate;
+}
+
+@keyframes bg-animation {
+    0% {
+        background-position: left
+    };
+    100% {
+        background-position: left
+    };
+  }
