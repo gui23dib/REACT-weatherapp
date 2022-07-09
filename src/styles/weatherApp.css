@@ -1,3 +1,8 @@
+.defaultApp {
+    background-color: #ffffff;
+    background-image: linear-gradient(20deg, #c2e7ff 0%, #adaeff 100%);
+}
+
 .drizzleApp {
     background-color: #637886;
     background-image: linear-gradient(135deg, #89949b 0%, #b0b1d8 100%);

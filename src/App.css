@@ -60,7 +60,7 @@ u:hover {
     width: 100%;
     max-width: 700px;
     overflow: hidden;
-    box-shadow: 00px 2px 64px #000;
+    box-shadow: 00px 2px 64px rgb(107, 93, 105);
     transition: 0.1s;
 }
 
